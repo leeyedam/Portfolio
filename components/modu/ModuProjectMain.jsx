@@ -23,11 +23,11 @@ function ModuProjectMain() {
       >
         <Grid item xs={1}></Grid>
         <Grid item xs={4} sm={8} md={6.2}>
-          <Image src={moduLeft} priority />
+          <Image src={moduLeft} priority={true} />
         </Grid>
         <Grid item xs={0.1} sm={0.1} md={1}></Grid>
         <Grid item xs={2.2} sm={3} md={3}>
-          <Image src={moduRight} priority />
+          <Image src={moduRight} priority={true} />
         </Grid>
       </Grid>
     </Box>

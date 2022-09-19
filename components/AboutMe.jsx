@@ -95,7 +95,7 @@ function AboutMe() {
                 backgroundImage: bg,
               }}
             >
-              <Image src={bg} objectFit="cover" alt="bg" />
+              <Image src={bg} objectFit="cover" alt="bg" priority={true} />
             </Card>
           </Grid>
           <Grid item xs={3} sm={6} md={6}>

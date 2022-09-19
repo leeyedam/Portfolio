@@ -24,11 +24,11 @@ function OlrimpickProjectMain() {
       >
         <Grid item xs={4} sm={0.1} md={0.7}></Grid>
         <Grid item xs={3} sm={4} md={3.3}>
-          <Image src={olrimpickLeft} />
+          <Image src={olrimpickLeft} priority={true} />
         </Grid>
         <Grid item xs={2} sm={0.1} md={1}></Grid>
         <Grid item xs={4} sm={8} md={7}>
-          <Image src={olrimpickRight} priority />
+          <Image src={olrimpickRight} priority={true} />
         </Grid>
       </Grid>
     </Box>
