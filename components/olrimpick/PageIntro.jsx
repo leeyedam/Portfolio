@@ -30,6 +30,21 @@ theme.typography.h5 = {
   },
 };
 
+theme.typography.body1 = {
+  fontSize: ".9rem",
+  marginBottom: "3px",
+  fontWeight: "500",
+  "@media (min-width:600px)": {
+    fontSize: ".9rem",
+    fontWeight: "500",
+  },
+  [theme.breakpoints.up("md")]: {
+    fontSize: "1rem",
+    marginBottom: "2.5px",
+    fontWeight: "500",
+  },
+};
+
 function PageIntro() {
   return (
     <ThemeProvider theme={theme}>
@@ -72,6 +87,14 @@ function PageIntro() {
                         marginLeft={1}
                       >
                         {arr.title}
+                      </Typography>
+                      <Typography
+                        variant="body1"
+                        component="div"
+                        color="#1976d2"
+                        marginLeft={1}
+                      >
+                        {arr.subTitle}
                       </Typography>
                       <Typography
                         variant="body2"

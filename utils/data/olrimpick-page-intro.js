@@ -2,8 +2,10 @@ export const olrimpickPageIntro = [
   {
     img: "/images/olrimpick/olrimpick_login.png",
     title: "회원가입 및 로그인 | ( ID: yedam / PW: 123123 )",
+    subTitle:
+      "*둘러보기용 아이디와 비밀번호는 Signup이 아닌 Login으로 들어가주세요!",
     intro:
-      " 비제어 컴포넌트를 활용하는 react hook form을 이용하여 값이 바뀔 때 마다 리렌더링되는 제어컴포넌트의 단점을 보완하였습니다. 또한 Input에 기본적인 유효성검사를 설정하여 기준에 부합하지 않으면 에러메시지가 보입니다.",
+      " 비제어 컴포넌트를 활용하는 react hook form을 이용하여 값이 바뀔 때 마다 리렌더링되는 제어컴포넌트의 단점을 보완하였습니다.",
   },
   {
     img: "/images/olrimpick/olrimpick_home.png",
