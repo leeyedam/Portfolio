@@ -1,7 +1,7 @@
 export const olrimpickPageIntro = [
   {
     img: "/images/olrimpick/olrimpick_login.png",
-    title: "회원가입 및 로그인 | ( ID: yedam / PW: 123123 )",
+    title: "회원가입 및 로그인 | ( ID: user / PW: 123123 )",
     subTitle:
       "*둘러보기용 아이디와 비밀번호는 Signup이 아닌 Login으로 들어가주세요!",
     intro:
